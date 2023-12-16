@@ -1,0 +1,20 @@
+{
+  "version": "5",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1702732127597,
+      "tag": "0000_gifted_lilandra",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1702743450119,
+      "tag": "0001_acoustic_sharon_ventura",
+      "breakpoints": true
+    }
+  ]
+}
