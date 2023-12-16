@@ -12,11 +12,7 @@ export default async function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head />
-      <body
-        className={cn(
-          "min-h-screen overflow-hidden bg-bg-one font-inter text-tx-one antialiased"
-        )}
-      >
+      <body className={cn("min-h-screen overflow-hidden bg-bg-one font-inter text-tx-one antialiased")}>
         <div>layout</div>
         {children}
       </body>

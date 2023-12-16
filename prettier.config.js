@@ -1,4 +1,4 @@
-// prettier.config.js
+/** @type {import("prettier").Options} */
 module.exports = {
   bracketSpacing: true,
   semi: true,
@@ -17,6 +17,6 @@ module.exports = {
   ],
   importOrderSeparation: false,
   importOrderSortSpecifiers: true,
-  plugins: [require("prettier-plugin-tailwindcss")],
+  plugins: ['prettier-plugin-tailwindcss'],
   tailwindConfig: "./tailwind.config.js",
 };
