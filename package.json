@@ -12,7 +12,9 @@
     "migration": "drizzle-kit generate:sqlite --out migrations --schema lib/db/schema.ts",
     "migrate": "pnpm wrangler d1 migrations apply DB --local",
     "migrate:stag": "pnpm wrangler d1 migrations apply DB --env stag",
-    "migrate:prod": "pnpm wrangler d1 migrations apply DB --env prod"
+    "migrate:prod": "pnpm wrangler d1 migrations apply DB --env prod",
+    "build": "next build",
+    "start": "next start --port ${PORT-3000}"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.2",
