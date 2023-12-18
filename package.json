@@ -15,13 +15,17 @@
     "migrate:prod": "pnpm wrangler d1 migrations apply DB --env prod"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.3.2",
     "cf-bindings-proxy": "^0.7.1",
     "clsx": "^2.0.0",
     "drizzle-orm": "^0.29.1",
+    "nanoid": "^5.0.4",
     "next": "14.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tailwind-merge": "^2.1.0"
+    "react-hook-form": "^7.49.2",
+    "tailwind-merge": "^2.1.0",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20231121.0",

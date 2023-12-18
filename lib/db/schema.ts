@@ -7,13 +7,13 @@ export const users = sqliteTable("user", {
   last_name: text("last_name"),
   email: text("email"),
   created_at: text("created_at"),
-  tickets: text("tickets"),
 });
 
 export const tickets = sqliteTable("ticket", {
   id: text("id").notNull().primaryKey(),
   user_id: text("user_id"),
   seat_id: text("seat_id"),
+  bus_id: text("bus_id"),
   created_at: text("created_at"),
 });
 

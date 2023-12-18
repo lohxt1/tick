@@ -5,6 +5,9 @@
     "skipLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@/components/*": [
+        "components/*"
+      ],
       "@/utils/*": [
         "utils/*"
       ],
