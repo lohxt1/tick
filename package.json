@@ -6,9 +6,7 @@
   "scripts": {
     "typecheck": "tsc --noEmit",
     "preinstall": "npx only-allow pnpm",
-    "dev:conc": "conc npm:dev:proxy npm:dev",
     "dev": "next dev",
-    "dev:proxy": "pnpm cf-bindings-proxy --ip 127.0.0.1",
     "migration": "drizzle-kit generate:sqlite --out migrations --schema lib/db/schema.ts",
     "build": "next build",
     "start": "next start --port ${PORT-3000}",
@@ -17,8 +15,6 @@
   "dependencies": {
     "@hookform/resolvers": "^3.3.2",
     "@libsql/client": "0.4.0-pre.5",
-    "better-sqlite3": "^9.2.2",
-    "cf-bindings-proxy": "^0.7.1",
     "clsx": "^2.0.0",
     "dotenv": "^16.3.1",
     "drizzle-orm": "^0.29.1",
